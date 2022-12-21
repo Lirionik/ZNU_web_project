@@ -1,0 +1,533 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #351F21;
+}
+
+header {
+  margin: 0 auto;
+  width: 760px;
+  background-color: #A9BFE4;
+  padding: 8px 50px 8px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-logo {
+  height: 55px;
+}
+.span-icon{
+  width: 20px;
+  height: 20px;
+}
+a:hover{
+  text-decoration: underline;
+color: #f5f6f7;
+transition: 0.2s;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #351F21;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #351F21;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #989EC3;
+}
+
+h5 {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+h4 {
+  font-family: Lora;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #fff
+}
+
+/* ***article-top*** */
+.article-top {
+  height: 455px;
+  background-image: url("../images/bg_web-no-background.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 420px 420px;
+  width: 760px;
+  margin: 0 auto;
+  padding: 160px 397px 150px 60px;
+}
+
+.article-main {
+  width: 300px;
+}
+
+.article-about {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+  padding: 100px 0 20px 65px;
+  margin: 0 auto;
+  width: 760px;
+  background:url('../images/women.png') no-repeat 90% 100%, url('../images/abstract_background.png')no-repeat 100% 310%;
+  background-size: 292px auto;
+  }
+.social{
+display: flex;
+flex-direction: column;
+padding-right: 10px;
+}
+/* CARD */
+.card {
+  position: relative;
+  background-size: cover;
+  display: inline-block;
+  width: 210px;
+  height: 145px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  width: 760px;
+  margin: 0 auto;
+}
+
+.crd-1 {
+  background-image: url('../images/bouquets.jpg');
+}
+
+.crd-2 {
+  background-image: url('../images/natural_flowers.jpg');
+}
+
+.crd-3 {
+  background-image: url('../images/own_bouquet.png');
+}
+
+/* link button */
+.button {
+  position: absolute;
+  top: 108px;
+  left: 40px;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  height: 30px;
+  width: 130px;
+  background-color: #A9BFE4;
+  text-decoration: none;
+  color: #fff;
+}
+
+.art_abt {
+  width: 320px;
+}
+
+/* work */
+.wrk {
+
+  background: #A9BFE44D url(../images/abstract_background.png)no-repeat 100% 208%;
+    background-size: 292px auto
+;
+  padding: 8px 65px;
+  width: 760px;
+  margin: 0 auto;
+}
+
+.wrk-crds {
+  display: flex;
+  justify-content: center;
+}
+
+.card-wrk {
+  width: 150px;
+  text-align: center;
+  margin: 11px;
+}
+
+.crs-img {
+  width: 60px;
+}
+
+/* CATALOG */
+.catalog {
+  width: 760px;
+  margin: 0 auto;
+  padding: 47px 65px
+}
+.circle-active{
+    fill:#FFC2C7;
+}
+  .circle{
+    fill:#D9D9D9;
+  }
+  .arr{
+    width: 170px;
+    margin: 0 auto;
+padding-top: 15px;
+align-items: center;
+  }
+.cart {
+  margin: 5px;
+  width: 200px;
+  height: 290px;
+  box-shadow: 0px 4px 8px #FFC2C7;
+  text-align: center;
+  align-items: center;
+}
+
+.catalog-card {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart img {
+  width: 200px;
+}
+
+/* recall */
+.recall {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.recall h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.recall {
+  padding: 24px 65px 24px 65px;
+  background-color: #A9BFE433;
+}
+
+.comment {
+  padding: 10px 38px 10px 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px #ACACAC;
+  width: 630px;
+}
+
+.name {
+  color: #989EC3;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.name_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.you_name {
+  height: 30px;
+  width: 100%;
+  border-radius: 0px;
+  border-color: #fff;
+  border-width: 0px;
+  color: #ACACAC;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 17px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.you_comment {
+  height: 30px;
+  width: 100%;
+  border-radius: 0px;
+  border-color: #fff;
+  border-width: 0px;
+  color: #ACACAC;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding-left: 17px;
+  height: 94px;
+  border-radius: 15px;
+}
+
+.btn {
+
+  margin-top: 10px;
+  background-color: #FFC2C7;
+  color: #FFFDF0;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+
+  border-width: 0px;
+  width: 130px;
+  height: 30px;
+}
+.btn-bc{
+  border: #FFC2C7 solid 1px;
+  background-color: #ffffff;
+  color:#989EC3;
+}
+.btn:hover {
+  background-color: #ffc7cb;
+
+}
+.btn-bc:hover{
+  background-color:#fcf7fc;
+
+}
+.btn:active {
+  background-color: #ffffff;
+  color:#989EC3;
+    border: #FFC2C7 solid 1px;
+  /* background-color: #e3aaaf; */
+}
+/* Delivery */
+
+.delivery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 760px;
+  margin: 0 auto;}
+
+.del-card{
+  height: 180px;
+  width: 200px;
+}
+.circle{
+  color:#A9BFE4;
+  width: 65px;
+  height: 65px;
+  border: solid #fff 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+  font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 51px;
+text-align: center;
+backdrop-filter: blur(2px);
+background: #FFFFFF;
+box-shadow: 0px 4px 8px #FFC2C7;
+padding: 5px;
+}
+.article-del{
+  flex-shrink: 4;
+height: 75px;
+padding: 33px 0;
+width: 760px;
+
+}
+.text-circle{
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+}
+/* FOOTER */
+footer {
+  color: #ffffff;
+  width: 760px;
+  margin: 0 auto;
+  background-color: #A9BFE4;
+  padding: 8px 65px 8px 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.col img {
+  height: 55px;
+}
+
+.col a {
+  font-family: Source Sans Pro;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.copy {
+  font-family: Source Sans Pro;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.burger {
+display: none;
+}
+
+.burger-bar {
+  width: 32px;
+  height: 2px;
+  margin: 5px auto;
+  background-color: white;
+  border-radius: 2px;
+}
+.cart:hover{
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+.cart span{
+  color:black;
+  display: block;
+}
+
+@media only screen and (max-width: 400px) {
+.main-content{
+  max-width: 400px;
+  width: 100%;
+}
+.span-icon{
+  display: none;
+}
+.article-del,.article-top, .wrk, .catalog,.delivery,
+  .recall, .comment, footer{
+  width: 400px;
+}
+  .burger {
+  display: inline-block;
+  }
+header {
+    width: 400px;
+    padding: 8px 22px 8px 22px;
+    justify-content: flex-start;
+  }
+  .img-logo{
+    height: 43px;
+    margin-left: 70%;
+  }
+.sort-item{
+  display: none;
+}
+  .article-top {
+    height: 455px;
+    background-image: url("../images/bg_mob-no-background.png");
+    padding: 0px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 350px 280px;
+    background-position: 50% 0;
+    display: inline-block;
+  }
+  .article-main{
+    text-align: center;
+  }
+  .article-about{
+    height: 418px;
+    padding: 25px 0 20px 65px;
+    width: auto;
+  }
+  .item{
+    margin-top: 30px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  width: 400px;}
+  .article-conteiner{
+    display:block;
+    margin-top: 300px;
+    text-align: -webkit-center;
+  }
+  .comment{
+    width: auto;
+  }
+  .button{
+  top: 70%;
+    left: 27%;
+  }
+  .art_abt{
+    width: 100%;
+  }
+  .wrk{
+    padding: 5px;
+  }
+  .card{
+    width: 300px;
+  }
+  .wrk-crds{
+    height: 300px;
+    flex-flow: column wrap;
+    background-image: none;
+  }
+.catalog{
+  padding: 5px;
+}
+.catalog-card{
+  flex-flow: column wrap;
+flex-direction: row;
+justify-content: center;
+}
+  .cart,.cart img{
+    width: 150px;
+  }
+.recall{
+      padding: 24px;
+}
+footer{
+  padding: 5px;
+flex-wrap: wrap;
+}
+.cld {
+order:1;
+}
+
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>FLOWER-MARKET</title>
+   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+  <div class="main-content">
+    <header>
+      <div class="burger" onclick="myFunction()">
+        <div class="burger-bar"></div>
+        <div class="burger-bar"></div>
+        <div class="burger-bar"></div>
+      </div>
+      <a href="#delivery"><img class="img-logo" src="images\logo.png" alt="logo"></a>
+      <a class="sort-item" href="#catalog">Каталог</a>
+      <a class="sort-item" href="#about">Про нас</a>
+      <a class="sort-item" href="#">Збери букет</a>
+      <a class="sort-item" href="#footer">Контакти</a>
+      <span><a href=""><img class="span-icon" src="images/lupa.png" alt=""></a> </span>
+      <span><a href=""><img class="span-icon" src="images/basket.png" alt=""></a> </span>
+    </header>
+    <div class="article-top">
+      <div class="article-conteiner">
+        <h1 class="article-main">Букет із кущових троянд
+          “Довгоочікуване щастя”</h1>
+        <br>
+        <h2 class="article-main">
+          Ніжний та витончений шик у букеті з троянд - гарний вибір для коханої
+          людини
+        </h2>
+        <input class="btn " type="button" name="" value="В Кошик">
+        <input class=" btn btn-bc" type="button" name="" value="В Каталог">
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="card crd-1"><a class="button" href="">Букети</a></div>
+      <div class="card crd-2"><a class="button" href="">Живі квіти</a></div>
+      <div class=" card crd-3"><a class="button" href="">"Свій" букет</a></div>
+    </div>
+
+    <div id="about" class="article-about">
+      <div class="about">
+        <h1>Про нас</h1>
+        <h2 class="art_abt">Яких квітів тут лише немає! І садові, і польові, і кімнатні у глиняних горщиках. Очі розбігаються від такого достатку.</h2>
+        <h2 class="art_abt">Тут представлена і багата колекція кімнатних рослин: кактуси різної форми та величини, ніжні фіалки, усипані квітами, аспарагуси, фікуси.</h2>
+      </div>
+      <div class="social">
+
+        <span><a href=""><img class="span-icon" src="images/inst.png" alt=""></a> </span>
+        <span><a href=""><img class="span-icon" src="images/viber.png" alt=""></a> </span>
+        <span><a href=""><img class="span-icon" src="images/fb.png" alt=""></a> </span>
+      </div>
+    </div>
+    <div class="wrk">
+      <h3>Працюємо для вас</h3>
+      <div class="wrk-crds">
+        <div class="card-wrk">
+          <img class="crs-img" src="images\constructor.png" alt="">
+          <h5>Конструктрор унікального букета</h5>
+        </div>
+        <div class="card-wrk">
+          <img class="crs-img" src="images\delivery.png" alt="">
+          <h5>Безкоштовна доставка по місту до 2-х годин</h5>
+        </div>
+        <div class="card-wrk">
+          <img class="crs-img" src="images\indoor.png" alt="">
+          <h5>Наявність кімнатних
+            рослин</h5>
+        </div>
+        <div class="card-wrk">
+          <img class="crs-img" src="images\for_loved_ones.png" alt="">
+          <h5>Вибір квітів для коханих, мам та друзів</h5>
+        </div>
+      </div>
+    </div>
+    <div class="catalog" id="catalog">
+      <!-- <h1>Каталог</h1> -->
+      <div class="catalog-card" id="flowers">
+
+      </div>
+      <div class="arr">
+        <a href="#"><img src="images/Arrow 2.png" alt=""></a>
+
+        <svg viewBox="0 0 16 16" width="10" height="10">
+          <circle class="circle-active" cx="8" cy="8" r="8" />
+        </svg>
+        <svg viewBox="0 0 16 16" width="10" height="10">
+          <circle class="circle" cx="8" cy="8" r="8" />
+        </svg>
+        <svg viewBox="0 0 16 16" width="10" height="10">
+          <circle class="circle" cx="8" cy="8" r="8" />
+        </svg>
+        <svg viewBox="0 0 16 16" width="10" height="10">
+          <circle class="circle" cx="8" cy="8" r="8" />
+        </svg>
+        <svg viewBox="0 0 16 16" width="10" height="10">
+          <circle class="circle" cx="8" cy="8" r="8" />
+        </svg>
+        <a href="#"><img src="images/Arrow 1.png" alt=""></a>
+      </div>
+    </div>
+    <div id="comments" class="recall">
+      <!-- <h1>Відгуки</h1>
+      <div  class="comment">
+        <p class="name"><span>Володимир</span></p>
+        <p class="name_text">“Сам не фахівець з квітів, але дружині дуже сподобався оригінальний весняний букет, зібраний із позитивним настроєм. Залишаю свій позитивний відгук магазину на вул. Добровольчих батальонів.”</p>
+      </div>
+      <br>
+      <div class="comment">
+        <p class="name"><span>Людмила</span></p>
+        <p class="name_text">“Замовляла квіти у неробочий час (увечері), але зі мною дуже оперативно зв'язався співробітник та пообіцяв доставити букет вранці у призначений час. Так і сталося, квіти були доставлені з точністю секунда в секунду, свіжі
+          та красиві. Рекомендую.”</p>
+      <!- </div> -->
+      <!-- <br>
+      <p>Додати відгук:</p> -->
+      <input class="you_name" type="text" placeholder="Ваше ім’я" id="author" name="" value="">
+      <textarea class="you_comment" type="text" rows="5" id="text_comment" placeholder="Ваш відгук:"></textarea>
+      <input class="btn" type="button" name="" id="send_comment" onclick="sendComment ()" value="Відправити">
+    </div>
+    <div class="images-span">
+      <div class="delivery">
+        <div class="del-card article-del">
+
+          <h1>Доставка і Оплата</h1>
+        </div>
+        <div id="delivery" class="del-card">
+          <div class="circle">1</div>
+          <h2 class="text-circle">
+            Ви замовляєте букет через
+            каталог
+          </h2>
+        </div>
+        <div class="del-card">
+          <div class="circle">2</div>
+          <h2 class="text-circle">Ви оплачуєте товар через картку VISA або MC, або
+            Приват24</h2>
+        </div>
+        <div class="del-card">
+          <div class="circle">3</div>
+          <h2 class="text-circle">
+            Вам передзвонять наші менеджери, якщо потрібно щось уточнити
+          </h2>
+        </div>
+        <div class="del-card">
+          <div class="circle">4</div>
+          <h2 class="text-circle">
+            Надсилаємо фото зібраного букета, щоб узгодити
+            все
+          </h2>
+        </div>
+        <div class="del-card">
+          <div class="circle">5</div>
+          <h2 class="text-circle">
+            Доставляємо букет
+            одержувачу протягом 2-х
+            годин
+          </h2>
+        </div>
+        <div class="del-card">
+          <div class="circle">6</div>
+          <h2 class="text-circle">
+            Сповістимо Вас дзвінком або повідомленням про доставку букета
+          </h2>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <div class=" cld col">
+          <img src="images\logo.png" alt="logo">
+          <span class="copy">Copyright &copy 2022</span>
+        </div>
+        <div class="cols col">
+          <h4>Контакти</h4>
+          <a href="#">(095) 000 00 00</a>
+          <a href="#">(097) 000 00 00</a>
+          <a href="#">Ми працюємо цілодобово</a>
+        </div>
+        <div class=" cols col">
+          <h4>Інформація</h4>
+          <a href="#">Про нас</a>
+          <a href="#">Хіт продажу</a>
+          <a href="#">Відгуки</a>
+          <a href="#">Доставка і оплата</a>
+        </div>
+        <div class="cols col">
+          <h4>Каталог</h4>
+          <a href="#">Збери свій букет</a>
+          <a href="#">Живі квіти</a>
+          <a href="#">Кімнатні рослини</a>
+        </div>
+    </div>
+    </footer>
+  </div>
+  <script defer src="js/main.js"></script>
+</body>
+
+</html>
